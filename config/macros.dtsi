@@ -2,7 +2,7 @@ macro_iferr: macro_iferr{
 compatible = "zmk,behavior-macro";
 label = "macro_iferr";
 #binding-cells = <0>;
-bindings = <&kp I>, <&kp F>;
+bindings = <&kp I>, <&kp F>, <&kp SPACE>, <&kp E>, <&kp R>, <&kp R>, <&kp LS(NUMBER_1)>, <&kp KP_EQUAL>, <&kp N>, <&kp I>, <&kp L>, <&kp LEFT_BRACE>;
 };
 macro_lgtm: macro_lgtm{
 compatible = "zmk,behavior-macro";
