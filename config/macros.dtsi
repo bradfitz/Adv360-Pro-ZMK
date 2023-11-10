@@ -2,7 +2,7 @@ macro_lgtm: macro_lgtm{
 compatible = "zmk,behavior-macro";
 label = "macro_lgtm";
 #binding-cells = <0>;
-bindings = <&kp L>, <&kp G>, <&kp T>, <&kp M>;
+bindings = <&kp LS(L)>, <&kp LS(G)>, <&kp LS(T)>, <&kp LS(M)>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
